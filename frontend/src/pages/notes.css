@@ -1,0 +1,115 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+
+* {
+  font-family: 'Oswald', sans-serif;
+}
+
+.header {
+  background-color:rgb(203, 57, 32);
+  padding: 10px;
+  height: 60px;
+ }
+
+ .side{
+    display: flex;
+    align-items:flex-start;
+    flex-direction: row;
+    justify-content: space-evenly;
+ }
+
+ .addnote{
+    border-right: 2px solid black; 
+height: 400px;
+    position: absolute;
+    left: 80px;
+    top: 100px;
+    margin: 5px;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+ }
+ .allnotes{
+
+    position: absolute;
+    left: 700px;
+    top: 100px;
+    margin: 5px;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+
+ }
+
+ .notes{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-top: 50px;
+    position: relative;
+    
+    
+
+ }
+ .note{
+width: 400px;
+height: 30px;
+background-color:rgb(111, 187, 81);
+padding: 10px;
+border: 50px;
+border-color:rgb(111, 187, 81) ;
+margin: 5px;
+list-style-type: none;
+ }
+ .time{
+position:relative;
+ left: 380px;  
+/* top: 10px; */
+ }
+
+ ul{
+   list-style-type: none;
+ }
+ 
+.heading{
+    font-size: 60px;
+    margin: 20px;
+ }
+
+ button{
+    margin: 10px;
+    height: 50px;
+    width: 150px;
+    padding: 5px;
+    border-radius: 5px;
+    border-color: rgb(246, 228, 228);
+    background-color:  rgb(246, 228, 228);
+    cursor: pointer;
+    font-size: 25px;
+ }
+
+ .textbox{
+    width: 250px;
+    height: 50px;
+    border-radius: 5px;
+    border-color:  rgb(196, 190, 190);
+    background-color: rgb(196, 190, 190);
+    margin: 10px;
+    padding: 5px;
+    
+    
+     }
+
+ .logout{
+    width: 160px;
+    height: 50px;
+    background-color:tomato;
+    padding: 5px;
+    position: absolute;
+    right: 20px;
+    top:10px;
+    font-size: 25px;
+ }
